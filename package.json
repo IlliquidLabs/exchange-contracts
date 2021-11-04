@@ -24,24 +24,22 @@
   "dependencies": {
     "hardhat-tracer": "^1.0.0-alpha.5"
   },
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Contracts for Nectar Trade.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/thehoneypot/exchange-contracts.git"
   },
-  "author": "Connor Daly <connor.daly@avalabs.org>",
   "license": "MIT",
   "scripts": {
     "precompile": "rimraf ./build/",
     "compile": "npx hardhat compile",
     "pretest": "yarn compile",
-    "test": "npx hardhat test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "test-node": "npx hardhat node --network hardhat",
     "test-local": "npx hardhat --network localhost test",
-    "lint": "prettier ./test/**/*.ts --check",
-    "prepublishOnly": "yarn test"
+    "lint": "prettier ./test/**/*.ts --check"
   },
   "bugs": {
     "url": "https://github.com/honeydex/exchange-contracts/issues"
