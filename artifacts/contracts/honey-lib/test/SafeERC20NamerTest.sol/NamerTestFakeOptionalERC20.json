@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "NamerTestFakeOptionalERC20",
+  "sourceName": "contracts/honey-lib/test/SafeERC20NamerTest.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122078c69a0133dd9531f92f0e65c80531c9840afef8ff756aeffb5e63efa80e347a64736f6c63430007060033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122078c69a0133dd9531f92f0e65c80531c9840afef8ff756aeffb5e63efa80e347a64736f6c63430007060033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
