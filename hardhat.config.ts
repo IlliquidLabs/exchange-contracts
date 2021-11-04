@@ -96,12 +96,10 @@ const config: HardhatUserConfig = {
     },
     arbitrum: {
       url: "https://arb1.arbitrum.io/rpc",
-      accounts: [process.env.DEPLOYER_PK],
       chainId: 42161
     },
     rinkeby: {
-      url: process.env.INFURARINKEBY,
-      accounts: [process.env.DEPLOYER_PK],
+      url: "https://arb1.arbitrum.io/rpc",
       chainId: 4
     }
   },

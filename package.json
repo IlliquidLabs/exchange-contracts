@@ -25,11 +25,11 @@
     "hardhat-tracer": "^1.0.0-alpha.5"
   },
   "version": "1.0.2",
-  "description": "Contracts for the Honey Dex.",
+  "description": "Contracts for Nectar Trade.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/honeydex/exchange-contracts.git"
+    "url": "git+ssh://git@github.com/thehoneypot/exchange-contracts.git"
   },
   "author": "Connor Daly <connor.daly@avalabs.org>",
   "license": "MIT",
